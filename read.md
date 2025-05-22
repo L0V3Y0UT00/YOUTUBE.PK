@@ -1,1 +1,4 @@
 yt-dlp --cookies cookies.txt -i --yes-playlist -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]" -o "~/YouTube_Playlist/%(title)s.%(ext)s" "https://youtube.com/playlist?list=PLAPNIuJfKgBL7glSPV8xLcONvBEYLZt8y&si=s-kHbJg5XdEQWvMK"
+
+
+https://write.corbpie.com/downloading-a-youtube-channel-with-yt-dlp/
