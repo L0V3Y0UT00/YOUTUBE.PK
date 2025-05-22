@@ -5,3 +5,6 @@ https://write.corbpie.com/downloading-a-youtube-channel-with-yt-dlp/
 
 
  yt-dlp --cookies cookies.txt --no-check-certificate --extractor-args "youtube:player_client=web" --list-formats "https://www.youtube.com/watch?v=S8tHV6VeukM"
+
+
+ yt-dlp --cookies cookies.txt   --extractor-args "youtube:player_client=web"   --yes-playlist   "https://www.youtube.com/@CreatorsClub1/videos"
