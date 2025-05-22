@@ -2,3 +2,6 @@ yt-dlp --cookies cookies.txt -i --yes-playlist -f "bestvideo[ext=mp4]+bestaudio[
 
 
 https://write.corbpie.com/downloading-a-youtube-channel-with-yt-dlp/
+
+
+ yt-dlp --cookies cookies.txt --no-check-certificate --extractor-args "youtube:player_client=web" --list-formats "https://www.youtube.com/watch?v=S8tHV6VeukM"
