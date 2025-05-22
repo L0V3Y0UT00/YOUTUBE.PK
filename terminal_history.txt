@@ -1,0 +1,68 @@
+    1  youtube-dl -f "bestvideo+bestaudio/best" -o "%(title)s.%(ext)s" https://www.youtube.com/@CreatorsClub1/videos
+    2  pip install youtube-dl
+    3  youtube-dl -f "bestvideo+bestaudio/best" -o "%(title)s.%(ext)s" https://www.youtube.com/@CreatorsClub1/videos
+    4  pip install yt-dlp
+    5  python3 -m pip install --upgrade pip
+    6  yt-dlp -f "bestvideo+bestaudio/best" -o "%(title)s.%(ext)s" https://www.youtube.com/@CreatorsClub1/videos
+    7  LS
+    8  ls
+    9  yt-dlp --cookies cookies.txt -f "bestvideo+bestaudio/best" -o "%(title)s.%(ext)s" https://www.youtube.com/@CreatorsClub1/videos
+   10  ls
+   11  yt-dlp --cookies cookies.txt -f "bestvideo+bestaudio/best" -o "%(title)s.%(ext)s" https://www.youtube.com/@CreatorsClub1/videos
+   12  yt-dlp --cookies cookies.txt --no-check-certificate -f "bestvideo+bestaudio/best" -o "%(title)s.%(ext)s" https://www.youtube.com/@CreatorsClub1/videos
+   13  yt-dlp --cookies cookies.txt --list-formats https://www.youtube.com/@CreatorsClub1/videos
+   14  yt-dlp -U
+   15  yt-dlp --cookies cookies.txt -i --yes-playlist -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]" -o "~/YouTube_Playlist/%(title)s.%(ext)s" "https://www.youtube.com/@CreatorsClub1"
+   16  LS
+   17  ls
+   18  yt-dlp --cookies cookies.txt -i --yes-playlist -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]" -o "~/YouTube_Playlist/%(title)s.%(ext)s" "https://www.youtube.com/@CreatorsClub1"
+   19  yt-dlp --cookies cookies.txt -i --yes-playlist --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]" -o "~/YouTube_Playlist/%(title)s.%(ext)s" "https://www.youtube.com/@CreatorsClub1"
+   20  yt-dlp --cookies cookies.txt --force-generic-extractor "https://www.youtube.com/@CreatorsClub1"
+   21  yt-dlp --cookies cookies.txt --list-formats "https://www.youtube.com/watch?v=S8tHV6VeukM"
+   22  yt-dlp --cookies cookies.txt --extractor-args "youtube:player_client=web" "https://www.youtube.com/watch?v=S8tHV6VeukM"
+   23  yt-dlp --cookies cookies.txt --no-check-certificate --extractor-args "youtube:player_client=web" --list-formats "https://www.youtube.com/watch?v=S8tHV6VeukM"
+   24  python3 -m venv venv
+   25  source venv/bin/activate
+   26  pip install -U pip setuptools wheel
+   27  pip install git+https://github.com/yt-dlp/yt-dlp.git
+   28  yt-dlp --extractor-args "youtube:player_client=web" "https://www.youtube.com/watch?v=S8tHV6VeukM"
+   29  yt-dlp --extractor-args "youtube:player_client=android" "https://www.youtube.com/watch?v=S8tHV6VeukM"
+   30  yt-dlp --cookies-from-browser chrome --extractor-args "youtube:player_client=android" "https://www.youtube.com/watch?v=S8tHV6VeukM"
+   31  yt-dlp --cookies cookies.txt --no-check-certificate --extractor-args "youtube:player_client=web" --list-formats "https://www.youtube.com/watch?v=S8tHV6VeukM"
+   32  yt-dlp --cookies cookies.txt   --extractor-args "youtube:player_client=web"   --yes-playlist   "https://www.youtube.com/@CreatorsClub1/videos"
+   33  yt-dlp --cookies-from-browser chrome   --extractor-args "youtube:player_client=web"   --no-check-certificate   --yes-playlist   "https://www.youtube.com/@CreatorsClub1/streams"
+   34  yt-dlp --cookies cookies.txt --extractor-args "youtube:player_client=web" --yes-playlist "https://www.youtube.com/@CreatorsClub1/streams"
+   35  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin https://github.com/L0V3Y0UT00/YOUTUBE.PK.git git push -u origin main
+   36  git init
+   37  git commit -m "first commit"
+   38  git branch -M main
+   39  git remote add origin https://github.com/L0V3Y0UT00/YOUTUBE.PK.git
+   40  git push -u origin main
+   41  git pull origin main --rebase
+   42  git add <conflicted-file>
+   43  git add .
+   44  git pull origin main --rebase
+   45  git push -u origin main
+   46  git pull
+   47  rm -f .git/index.lock
+   48  git pull
+   49  mv cookies.txt ~/cookies_backup.txt
+   50  rm cookies.txt
+   51  git pull
+   52  git push -u origin main
+   53  ls
+   54  git lfs install && git lfs track "*.mp4" && git add . && git commit -m "Add large video files" && git push origin main && gh release create v1.0 *.mp4 --title "Release Title" --notes "Release Notes"
+   55  git push
+   56  git push --force
+   57  git push
+   58  deactivate
+   59  git push
+   60  git rm --cached venv/lib/python3.12/site-packages/yt_dlp/extractor/shahid.py
+   61  git init
+   62  git add .
+   63  git pull
+   64  git push
+   65  git pull
+   66  git push
+   67  history
+   68  history > terminal_history.txt
